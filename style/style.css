@@ -286,7 +286,7 @@ footer {
 .footer-one {
   width: 360px;
 }
-.logo {
+.logos {
   margin: 24px;
 }
 .text-link {
@@ -302,9 +302,15 @@ footer {
   .banner {
     flex-direction: column-reverse;
   }
+  nav {
+    width: 100%;
+  }
 
   .title {
     margin: 30px auto;
+    /* width: 100%; */
+  }
+  .flower {
     width: 100%;
   }
   .ALWAYS,
@@ -313,6 +319,9 @@ footer {
   .Plants {
     font-size: 24px;
   }
+  .tell-you {
+    margin: 0 auto;
+  }
 
   .banner-commit,
   .flower-commit {
@@ -320,17 +329,18 @@ footer {
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
+    /* max-width: 576px; */
     gap: 20px;
   }
+
   .two {
     margin-top: 40px;
-    /* max-width: 100%;
-    width: fit-content; */
+    /* max-width: 100%; */
   }
   .one {
     width: 100%;
     margin: 0;
+    /* max-width: 100%; */
   }
   .store {
     grid-template-columns: repeat(1, 1fr);
@@ -342,15 +352,25 @@ footer {
   .badge {
     display: none;
   }
+  .lover-commit {
+    font-size: 16px;
+  }
+  .lover-commit li {
+    margin-top: 10px;
+  }
+  .lover-title {
+    font-size: 24px;
+  }
 
   .three {
     flex-direction: column;
     margin-top: 40px;
   }
   .flower-store {
-    max-width: 200px;
+    max-width: 100%;
   }
   .big-discount {
+    max-width: 100%;
   }
   .small-discount {
     max-width: 100%;
@@ -378,5 +398,8 @@ footer {
   .small-discount {
     width: 100%;
     height: 10rem;
+  }
+  body {
+    max-width: 100%;
   }
 }
